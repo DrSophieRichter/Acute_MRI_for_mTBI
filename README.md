@@ -1,2 +1,15 @@
 # Acute_MRI_for_mTBI
 This is the code for our paper "Acute magnetic resonance imaging for mild traumatic brain injury"
+Packages required for the below analyses can be installed by running the script install_packages.R
+
+| Code                         | Purpose                                                                                                                                                                  | Outputs for publication                                        |
+|------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
+| fdr_function                 | Function that looks at a population of p-values and reports which of those is the maximim p-value that is still significant according to the chosen false discovery rate | n/a                                                            |
+| Patients_code | Summarise patient characteristics; compare patients with and without data available for each analysis                                                                    | Table 1                                              |
+| Lesion_code                  | Compare the radiologically visible lesions between CT and MR1, and between MR1 and MR2                                                                                   | Table 2                                                        |
+| Volumes_code                 | Within-patient comparison of volumes at MR1 versus MR2, and MR2 versus MR3. Comparison of volumes between patients and controls at MR1, MR2 and MR3.                     | Table 3                                              |
+| DTI_code                     | Quality control of DTI scans. Comparison of DTI within patients (MR1 vs MR2, MR2 vs MR3). Comparison of DTI between patients and controls at MR1, MR2 and MR3.           | results are presented as text only                             |
+| Derive_phenotypes_code       | K-mean clustering of DTI parameters as they change between MR1 and MR2                                                                                                   | results are used in subsequent code                            |
+| Phenotypes_vs_controls_code  | Calculate for each phenotype the number of white matter tracts which show abnormal diffusion parameters compared to heatlthy controls                                    | results are presented as text only, or used in subsequent code |
+| Phenotypes_vs_symptoms_code  | Compare the severity of concussion symptoms between imaging phenotypes                                                                                                   | Figure 2                                             |
+| Outcomes_code         | Compare prognostic value of MR1 and MR2, includes a sensitivity analysis for missing outcome data (Glasgow Outcome Score at 3 months)                                     | Figure 3, Table 4, Table 5                                    |
