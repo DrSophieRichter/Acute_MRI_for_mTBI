@@ -1,5 +1,5 @@
 # Acute_MRI_for_mTBI
-This is the code for our paper "Acute magnetic resonance imaging for mild traumatic brain injury"
+This is the code for our paper "Neuroanatomical Substrates and Symptoms Associated With Magnetic Resonance Imaging of Patients With Mild Traumatic Brain Injury" in JAMA Network Open. doi:10.1001/jamanetworkopen.2021.0994
 Packages required for the below analyses can be installed by running the script install_packages.R
 
 | Code                         | Purpose                                                                                                                                                                  | Outputs for publication                                        |
